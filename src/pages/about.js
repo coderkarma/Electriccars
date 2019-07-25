@@ -5,11 +5,14 @@ import Layout from '../components/layout';
 import SEO from '../components/seo';
 
 const SecondPage = () => (
-    <Layout>
-        <SEO title="About" />
-        <h1>This is the about page</h1>
-        <Link to="/">Go back to the homepage</Link>
-    </Layout>
+	<Layout>
+		<SEO title='About' />
+		<section className='section'>
+			<div className='container content'>
+				<h1 className='title is-1'>About</h1>
+			</div>
+		</section>
+	</Layout>
 );
 
 export default SecondPage;
